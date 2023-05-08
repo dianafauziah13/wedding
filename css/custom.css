@@ -12,12 +12,14 @@ body {
 
 .banner-first {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://images.squarespace-cdn.com/content/v1/5d9deb0877db1c1a1967abbd/1617283203154-RL1HA4AXWSTB0G7RRN7A/WICKLOW+PRE-WEDDING+PHOTO_VIDEO-high.gif?format=1500w");
+  url("../images/gallery-3.png");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
 }
-
+.inv-envelope-attende-purpose {
+  color: white;
+}
 .banner-first .title {
   white-space: nowrap;
   line-height: 112px;
@@ -26,6 +28,7 @@ body {
 
 .banner-first .subtitle {
   margin-top: 2.5rem;
+  font-size: larger;
 }
 
 .grid-wrapper {
@@ -96,9 +99,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://ajaib-wp-s3-artifact.s3.ap-southeast-1.amazonaws.com/img/2022/02/13004151/foto-prewedding.jpg");
+  url("../images/gallery-1.png");
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .gap-location {
@@ -173,13 +176,18 @@ body {
   background: #f0f0f0;
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://wallpaperaccess.com/full/2677518.jpg");
+  url("../images/gallery-2.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.inv-reveal{
+  text-align: center;
+}
+.location-titler inv-reveal{
+  text-align: center;
+}
 .rsvp-card {
   width: 80%;
 }
@@ -225,7 +233,7 @@ body {
 }
 
 .location-subtitler .wide-p .time {
-  font-size: 30px;
+  font-size: 5px;
   font-family: "Nunito Sans";
 }
 
@@ -244,6 +252,7 @@ body {
 }
 
 .wide-p {
+  font-family: "raleway";
   padding-top: 2rem;
 }
 
@@ -281,7 +290,8 @@ body {
 }
 
 .footer-wrapper {
-  padding: 3rem 12rem;
+  text-align: center;
+  padding: 3rem 10rem;
   background-color: #303d4c;
   color: white;
 }
@@ -341,6 +351,7 @@ body {
   padding-right: 1rem;
   padding-left: 1rem;
 }
+
 
 @media only screen and (max-width: 600px) {
   .grid-wrapper {
@@ -439,8 +450,8 @@ body {
 }
 
 .inv-envelope {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/wallpaper.jpg");
+  background-image: linear-gradient(rgba(49, 49, 49, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/wallpaper.png");
 }
 
 .video-wrapper {
