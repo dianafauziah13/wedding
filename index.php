@@ -176,8 +176,13 @@
 
     <div class="bride-wrapper">
       <div class="inv-row">
+<<<<<<< HEAD:Wedding inv.html
         <div class="inv-column-6 wrapper-title inv-opacity">
           MEMPELAI <br> Pria & Wanita
+=======
+        <div class="inv-column-6 wrapper-title inv-reveal">
+          Mempelai Pria & Wanita
+>>>>>>> ad5a6b164ed09361ef3fb71268e5e9bafc98afc5:index.php
         </div>
         <div class="inv-grid grid-parent">
           <div class="inv-grid grid-parent">
@@ -208,6 +213,15 @@
             </div>
           </div>
           <div class="inv-grid grid-parent">
+            <div
+              class="inv-grid grid-node inv-reveal-rand"
+              style="
+                position: relative;
+                transform: translateY(0px);
+                opacity: 1;
+                transition: all 1s ease 0s;
+              "
+            >
             <center>
               <figure class="inv-image bride-photo">
                 <!-- <img class="has-ratio" width="200" src="https://assets.promediateknologi.com/crop/0x0:0x0/x/photo/2022/02/24/180111210.jpg" /> -->
@@ -223,6 +237,7 @@
                 <i class="fa-brands fa-facebook"></i> -->
               </p>
             </center>
+            </div>
           </div>
         </div>
       </div>
@@ -307,7 +322,7 @@
       <div class="inv-grid grid-parent">
         <div class="inv-grid grid-parent">
           <div class="inv-grid grid-node location-info wrapper-content">
-            <div class="location-titler-inv-reveal">Waktu dan Tempat</div>
+            <div class="location-titler-inv-reveal inv-reveal">Waktu dan Tempat</div>
             <div class="location-subtitler">
               <div class="inv-reveal">
                 Dengan mengucap syukur atas kehadirat Allah SWT dan dengan segenap kerendahan hati, tanpa mengurangi rasa hormat. Kami mohon doa dan restu dari Bapak/Ibu/Saudara/i untuk hadir dihari bahagia Pernikahan kami yang akan dilaksanakan pada :
@@ -338,9 +353,9 @@
             <div class="inv-grid grid-node">
               <div class="inv-card rsvp-card inv-reveal">
                 <div class="card-content">
-                  <span class="form-title">Confirmation</span>
+                  <span class="form-title">Konfirmasi</span>
                   <span class="form-subtitle"
-                    >Please fill out the following form</span
+                    >Harap lengkapi formulir berikut</span
                   >
                   <div class="form-input">
                     <div class="inv-column-6">
@@ -400,7 +415,6 @@
       width="100%"
       height="500"
       frameborder="0"
-      class="inv-reveal"
       style="border: 0"
     ></iframe>
 
@@ -411,7 +425,7 @@
             Merupakan Kebahagiaan Bagi Kami Apabila Anda Berkenan Hadir Pada
             Acara Pernikahan Kami.
           </div>
-          <p class="thank-name inv-opacity">Narisha & Rizal</p>
+          <p class="thank-name inv-reveal">Narisha & Rizal</p>
         </div>
       </div>
     </div>
@@ -530,8 +544,10 @@
           <div class="inv-grid grid-node footer-data">
             Contact Us
             <br>
-            <a class="elementor-icon" href="https://api.whatsapp.com/send/?phone=6287708250582&text=Saya+tertarik+dengan+produk%20website%20undangan+yang+Anda+kembangkan&type=phone_number&app_absent=0" target="_blank">
-              <i aria-hidden="true" class="fab fa-whatsapp"></i> WhatsApp</a>
+            <span>
+              <a class="elementor-icon footer-anchor" href="https://api.whatsapp.com/send/?phone=6287708250582&text=Saya+tertarik+dengan+produk%20website%20undangan+yang+Anda+kembangkan&type=phone_number&app_absent=0" target="_blank">
+                <i aria-hidden="true" class="fab fa-whatsapp"></i> WhatsApp</a>
+            </span>
           </div>
         </div>
         <!-- <div class="inv-grid grid-parent">
@@ -549,7 +565,12 @@
         <div class="inv-grid grid-parent">
           <div class="inv-grid grid-node footer-data">
             Email
+<<<<<<< HEAD:Wedding inv.html
             <span> support@resepsi-digital.my.id
+=======
+            <span>
+              <a class="footer-anchor" href="mailto:support@resepsi-digital.my.id" target="_blank">support@resepsi-digital.my.id</a>
+>>>>>>> ad5a6b164ed09361ef3fb71268e5e9bafc98afc5:index.php
             </span>
           </div>
         </div>
@@ -557,7 +578,11 @@
     </div>
     <footer class="invite-footer">
       <div class="inv-column-6 footer-copy">
+<<<<<<< HEAD:Wedding inv.html
         &copy; 2023, Resepsi Digital Invitation. All rights reserved.
+=======
+        &copy; 2023 by Resepsi Digital. All Rights Reserved.
+>>>>>>> ad5a6b164ed09361ef3fb71268e5e9bafc98afc5:index.php
       </div>
     </footer>
 
