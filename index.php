@@ -348,9 +348,9 @@
             <div class="inv-grid grid-node">
               <div class="inv-card rsvp-card inv-reveal">
                 <div class="card-content">
-                  <span class="form-title">Confirmation</span>
+                  <span class="form-title">Konfirmasi</span>
                   <span class="form-subtitle"
-                    >Please fill out the following form</span
+                    >Harap lengkapi formulir berikut</span
                   >
                   <div class="form-input">
                     <div class="inv-column-6">
